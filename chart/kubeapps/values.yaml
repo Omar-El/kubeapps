@@ -14,7 +14,7 @@ useHelm3: false
 
 ## Disable this feature flag to disallow users to discover available namespaces (only the ones they have access).
 ## When set to true, Kubeapps creates a ClusterRole to be able to list namespaces.
-allowNamespaceDiscovery: true
+allowNamespaceDiscovery: true 
 
 ## The frontend service is the main reverse proxy used to access the Kubeapps UI
 ## To expose Kubeapps externally either configure the ingress object below or
